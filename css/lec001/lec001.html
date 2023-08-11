@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #imgbox {
+        text-align: center;
+        margin-top: 100px;
+      }
+      #myimg {
+        transition: all 2s;
+        filter: grayscale(100);
+      }
+      #myimg:hover {
+        filter: none;
+        transform: scale(1.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="imgbox">
+      <img id="myimg" src="imgs.jpg" />
+    </div>
+  </body>
+</html>
